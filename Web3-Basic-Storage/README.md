@@ -1,5 +1,5 @@
 # Web3-Local-Basic-Storage
-Makes a state change to a simple smart contract and then deploys it on a local blockchain (ganache CLI)
+Makes a state change to a simple smart contract and then deploys it on a local blockchain (ganache CLI) or Rinkeby test net
 
 Some file/folder descriptions: 
  >  - BasicStorage.sol is the basic storage example smart contract
@@ -14,4 +14,5 @@ Usage:
   
 Notes: 
 > Either create an .env or run locally: export $PRIVATE_KEY={insert private key} to insert a private key (DON'T USE REAL). 
-> Utilizes web3 and solcx
+> Utilizes web3 and solcx. 
+> Currently configred for local ganache enviorment 

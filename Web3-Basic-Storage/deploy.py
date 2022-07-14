@@ -38,8 +38,14 @@ with open("compiled.json", "w") as file:
 
 
 # connecting to ganache cli 
+#rinkbye endpoint: https://rinkeby.infura.io/v3/bb7fe94b648943388624a834e9e3b283
 w3 = Web3(Web3.HTTPProvider("HTTP://127.0.0.1:8545"))
+
+#rinkeby chain id = 4
 chain_id = 1337
+
+#rinkeby address: 
+#0x5D7EF732E9601838a7d9C63624adE110AEcdDFf7
 my_address = "0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1"
 
 # THIS IS NOT A REAL PRIVATE KEY, GENERATED FROM GANACHE
