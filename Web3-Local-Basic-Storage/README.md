@@ -1,5 +1,5 @@
 # Web3-Local-Basic-Storage
-Makes a state change to a simple smart contract and then deploys it on a local blockchain (ganache)
+Makes a state change to a simple smart contract and then deploys it on a local blockchain (ganache CLI)
 
 Some file/folder descriptions: 
  >  - BasicStorage.sol is the basic storage example smart contract

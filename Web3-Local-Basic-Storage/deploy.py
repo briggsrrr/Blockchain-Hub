@@ -37,10 +37,10 @@ with open("compiled.json", "w") as file:
     json.dump(compiled_sol, file)
 
 
-# connecting to ganache
-w3 = Web3(Web3.HTTPProvider("HTTP://127.0.0.1:7545"))
+# connecting to ganache cli 
+w3 = Web3(Web3.HTTPProvider("HTTP://127.0.0.1:8545"))
 chain_id = 1337
-my_address = "0xd0B12A040403bB0605526C1CB4575593BE6a15c8"
+my_address = "0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1"
 
 # THIS IS NOT A REAL PRIVATE KEY, GENERATED FROM GANACHE
 _private_key = os.getenv("PRIVATE_KEY")
