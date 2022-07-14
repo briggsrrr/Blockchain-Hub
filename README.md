@@ -4,6 +4,9 @@ Contains all things I've done related to web3, blockchain, smart contracts, etc.
 Some folder descriptions: 
  >  1. Web3-Local-Basic-Storage: Utilizes web3 to make a state change to a simple smart contract and then deploys it on a local blockchain (ganache CLI) or Rinkeby test net
 
+
+Notes:
+> Big thanks to freeCodeCamp.org for teaching this content 
      
 
   

@@ -7,8 +7,8 @@ Some file/folder descriptions:
 
      
 Usage: 
- > 1. ensure local enviorment is configured with Ganache
- > 2. change properties in deploy.py accordingly 
+ > 1. ensure local enviorment is configured with Ganache (if not using rinkeby)
+ > 2. change properties in deploy.py accordingly (update address key, chain id, private key)
  > 3. python deploy.py
 
   
