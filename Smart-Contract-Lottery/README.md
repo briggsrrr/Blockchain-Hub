@@ -10,7 +10,11 @@ Rules:
  > 2. Admin chooses when lottery is over - (Could this be decentralized)
  > 3. Lottery will select random winner
 
- Usage: 
+Usage: 
+
+
+To run tests (mainnet fork):
+
 
   
 Notes: 
